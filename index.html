@@ -11,16 +11,19 @@
       <div class="heading">
         <h1>Counter App</h1>
       </div>
-      <h2 id="display">0</h2>
-      <div class="btn-container">
-        <button class="btn" id="minus">-</button>
-        <button class="btn" id="plus">+</button>
-      </div>
-      <div class="input-num">
-        <label for="input">Increment/Decrement By: </label>
-        <input type="number" id="input" />
-      </div>
-      <button id="reset">Reset</button>
+      <form>
+        <p id="para">Please enter a number...</p>
+        <h2 id="display">0</h2>
+        <div class="btn-container">
+          <button type="button" class="btn" id="minus">-</button>
+          <button type="button" class="btn" id="plus">+</button>
+        </div>
+        <div class="input-num">
+          <label for="input">Increment/Decrement By: </label>
+          <input type="number" id="input" required />
+        </div>
+        <button type="button" id="reset">Reset</button>
+      </form>
     </div>
     <script src="main.js"></script>
   </body>
